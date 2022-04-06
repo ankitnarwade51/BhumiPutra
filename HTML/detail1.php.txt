@@ -1,0 +1,24 @@
+<?php
+
+$name=$_POST['name'];
+$address=$_POST['address'];
+$email=$_POST['email'];
+$mobile=$_POST['mobile'];
+$feedback=$_POST['feedback'];
+
+$con=mysql_connect("localhost","root","");
+if(!$con)
+{
+die('Could not connect:'.mysql_error());
+}
+
+mysql_select_db("demo",$con);
+$query="INSERT INTO details(farmer_name,address,email,mobile,feedback)VALUES('$name','$address','$email','$mobile','$feedback')";
+if(!mysql_query($query,$con))
+{
+die('Error in inserting records'.mysql_error);
+}else
+{
+echo "Data Inserted";
+}
+?>

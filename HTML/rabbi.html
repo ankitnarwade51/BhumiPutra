@@ -1,0 +1,236 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<link type="text/css" rel="stylesheet" href="mystyle.css"/>
+<link type="text/css" rel="stylesheet" href="dropdownstyle.css"/>
+
+
+<style type="text/css">
+
+.flip3D 
+{
+ width:240px; 
+ height:200px;
+ margin:10px;
+ float:left;
+}
+
+.flip3D > .front 
+{ 
+ position:absolute;
+ transform:perspective(600px) rotateY( 0deg);
+ background:#65CB61; width:240px; height:200px; border-radius: 7px;
+ backface-visibility:hidden;
+ transition: transform .5s linear 0s; 
+
+}
+
+.flip3D > .back
+{ 
+ position:absolute;
+ transform:perspective(600px) rotateY( 180deg);
+ background:#ED5C5F; width:240px; height:200px; border-radius: 7px;
+ backface-visibility:hidden;
+ transition: transform .5s linear 0s; 
+
+}
+
+.flip3D:hover > .front
+{ 
+  transform:perspective( 600px) rotateY( -180deg );
+}
+
+.flip3D:hover > .back
+{ 
+  transform:perspective( 600px) rotateY( 0deg );
+}
+ 
+
+</style>
+
+
+
+</head>
+
+<body bgcolor="CCCC99">
+
+<div id="outerbox">
+    <div id="sliderbox">
+      
+     <img src="Images1/kharif.jpg"/> 
+      <img src="Images1/h.jpg"/>
+        <img src="Images1/rabbi.jpg"/>
+        <img src="Images1/fruits.jpg"/>
+        <img src="Images/3.jpg"/>
+        <img src="Images1/v.jpg"/>
+        <img src="Images1/r.jpg"/>
+        <img src="Images1/k.jpg"/>
+     
+     </div>
+</div>
+
+<ul>
+ <li><a href="home.html">मुख्यपृष्ठ</a></li>
+
+  <li> <a href="kharif.html"> खरीप पिके  </a>
+     
+      <!-- <ul>
+          <li><a href="cotton.html">   कापूस </a> </li>  
+          <li><a href="soyabean.html">  सोयाबीन  </a></li>  
+          <li><a href="tur.html">  तूर  </a>  </li>
+          <li><a href="blackgram.html">   उडीद </a></li>  
+          <li><a href="greengram.html"> मुंग </a>  </li>
+          <li><a href="jowar.html">  ज्वारी  </a>  </li>
+          <li><a href="sugarcane.html"> ऊस   </a> </li> 
+          <li><a href="rice.html">तांदूळ    </a>  </li>
+          <li><a href="seesam.html">  तीळ  </a>  </li>
+          <li><a href="groundnut.html">भुईशेंग    </a>  </li>
+       </ul> -->
+    </li>
+ 
+</ul>
+
+<ul>
+
+    <li> <a href="rabbi.html"> रब्बी पिके </a> 
+    
+   <!--  <ul>
+     
+        <li> <a href="wheat.html"> गहू </a> </li> 
+        <li> <a href="gram.html">हरभरा  </a> </li> 
+        <li> <a href="maize.html"> मका </a> </li> 
+        <li> <a href="fenugreek.html">मेथी  </a> </li> 
+        <li> <a href="onion.html">कांदा </a> </li> 
+        <li> <a href="potato.html"> आलू</a> </li> 
+        <li> <a href="mustard.html"> मोहरी </a> </li> 
+        <li> <a href="pea.html">वटाणा  </a> </li> 
+        
+     
+    </ul> -->
+    
+</li> 
+    
+</ul>
+
+     
+           <ul>
+                 <li> <a href="fruits.html">  फळे लागवड </a></li>
+                 <li> <a href="irrigation.html"> सिंचन पद्धती     </a>
+      
+              <!-- <ul>
+                    <li><a href="drip.html"> थिंबक सिंचन   </a> </li>
+                     <li> <a href="tushar.html"> तुषार सिंचन </a> </li>
+            
+               </ul> -->
+    
+    
+                </li> 
+             </ul>   
+          
+          <ul>
+              <li> <a href="fertilizerandpesticides.html">खते व कीटकनाशके     </a>
+     
+     
+     
+             <!--    <ul>
+                         <li><a href="biological.html"> जैविक खते  </a> </li>
+                         <li> <a href="organic.html"> सेंद्रिय खते  </a> </li>
+                        <li> <a href="chemical.html"> रासायनिक खते   </a> </li>
+                         <li> <a href="pesticide.html"> कीटकनाशके  </a>  </li> 
+    
+    
+    
+                 </ul>  -->
+     
+       </li>
+     </ul>   
+ <ul>
+     <li> <a href="flowers.html">फुले लागवड  </a></li>  
+  
+     <li> <a href="jobs.html">शेती व उद्योग</a>
+     
+  <!--      <ul>
+           <li> <a href="dairy.html">  दुग्ध व्यवसाय    </a> </li>
+           <li> <a href="poultry.html">  कुक्कुटपालन    </a> </li>
+           <li> <a href="fish.html">  मत्स्यशेती    </a> </li>
+           <li> <a href="honey.html">  मधुमक्षिकापालन    </a> </li>
+           <li> <a href="silk.html">  रेशीम उद्योग    </a> </li>
+           
+              
+      </ul> -->
+  
+   </li>
+   </ul>
+    <ul>     
+     <li> <a href="aboutus.html">प्रयोजन </a></li> 
+   </ul>
+
+
+
+
+<fieldset> 
+
+<legend> रब्बी पिके </legend>
+
+<div class="flip3D">
+    <div class="back"><br> <br><br> <br><a href="gahu.html"><h5 align="center">गव्हाच्या माहितीसाठी येथे क्लिक करा</h5></a></div> 
+     <div class="front"> <img src="Images/gahu.jpg" width="240"; height="200"> </div>
+</div>
+
+<div class="flip3D">
+    <div class="back"> <br> <br><br> <br><a href="harbhara.html"><h5 align="center">हरभऱ्याच्या माहितीसाठी येथे क्लिक करा</h5></a> </div> 
+     <div class="front">  <img src="Images/harbhara.jpg" width="240"; height="200"> </div>
+</div>
+
+<div class="flip3D">
+    <div class="back"> <br> <br><br> <br><a href="maka.html"><h5 align="center">मक्याच्या माहितीसाठी येथे क्लिक करा</h5></a> </div> 
+     <div class="front">  <img src="Images/maka.jpg" width="240"; height="200"> </div>
+</div>
+
+<div class="flip3D">
+    <div class="back"> <br> <br><br> <br><a href="methi.html"><h5 align="center">मेथीच्या माहितीसाठी येथे क्लिक करा</h5></a> </div> 
+     <div class="front"> <img src="Images/methi.jpg" width="240"; height="200">  </div>
+</div>
+
+<div class="flip3D">
+    <div class="back"> <br> <br><br> <br><a href="kanda.html"><h5 align="center">कांद्याच्या माहितीसाठी येथे क्लिक करा</h5></a> </div> 
+     <div class="front">  <img src="Images/kanda.png" width="240"; height="200"> </div>
+</div>
+
+<div class="flip3D">
+    <div class="back"> <br> <br><br> <br><a href="batata.html"><h5 align="center">बटाटाच्या माहितीसाठी येथे क्लिक करा</h5></a> </div> 
+     <div class="front">  <img src="Images/batata.jpg" width="240"; height="200"> </div>
+</div>
+
+<div class="flip3D">
+    <div class="back"> <br> <br><br> <br><a href="mohari.html"><h5 align="center">मोहरीच्या माहितीसाठी येथे क्लिक करा</h5></a> </div> 
+     <div class="front">  <img src="Images/mohari.jpg" width="240"; height="200"> </div>
+</div>
+
+<div class="flip3D">
+    <div class="back"> <br> <br><br> <br><a href="vatana.html"><h5 align="center">वाटानाच्या माहितीसाठी येथे क्लिक करा</h5></a> </div> 
+     <div class="front">  <img src="Images/vatana.jpg" width="240"; height="200"> </div>
+</div>
+
+<div class="flip3D">
+    <div class="back">  <br> <br><br> <br><a href="aale.html"><h5 align="center">अद्रकीच्या  माहितीसाठी येथे क्लिक करा</h5></a></div> 
+     <div class="front"> <img src="Images/aale.png" width="240"; height="200"></div>
+</div>
+
+<div class="flip3D">
+    <div class="back">  <br> <br><br> <br><a href="halad.html"><h5 align="center">हळदीच्या माहितीसाठी येथे क्लिक करा</h5></a></div> 
+     <div class="front"> <img src="Images/halad.png" width="240"; height="200"></div>
+</div>
+
+</fieldset>
+
+
+
+
+
+
+
+</body>
+</html>

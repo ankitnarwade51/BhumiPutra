@@ -1,0 +1,115 @@
+#outerbox 
+{
+width:1920px;
+overflow:hidden;	
+}
+
+#sliderbox
+{
+ position:relative;
+ width:15360px;
+ animation-name:farmer;
+ animation-duration:40S;
+ animation-iteration-count:infinite;
+ border: 2px dotted blue;
+	
+}
+
+#sliderbox img
+{
+	float:left;
+	width:1920px;
+	height:400px;
+	
+	
+}
+
+@keyframes farmer
+{
+  0%
+     {
+	   left:0px;
+     }
+	 10%
+	 {
+		 left:0px;
+	 }
+	 12.5%
+	 {
+		 left:-1920px;
+	 }
+	 
+     22.5%
+	 {
+		 left:-1920px;
+	 }
+
+    25%
+	{
+		left:-3840px;
+	}
+
+    35%
+	{
+		left:-3840px;
+ 
+ 	}
+
+    37.5%
+	{
+		left:-5760px;
+	
+	}
+	
+	47.5%
+	{
+		left:-5760px;
+	}
+    
+	50%
+	{
+		left:-7680px;
+	}
+
+    60%
+	{ 
+	   left:-7680px; 
+	}
+
+    62.5%
+	{
+	   left:-9600px;	
+	}
+    
+	72.5%
+	{
+	   left:-9600px;	
+	}
+ 
+   75%
+   {
+	  left:-11520px;   
+   }
+  
+   85%
+   {
+	  left:-11520px;  
+   }
+  
+   87.5%
+   {
+	  left:-13440px;   
+   }
+ 
+   97.5%
+   {
+	  left:-13440px;   
+   }
+ 
+   100%
+   {
+	 left:-15360px;
+	
+   }
+ 
+}  
